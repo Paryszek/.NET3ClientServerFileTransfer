@@ -7,6 +7,5 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FileContainer\FileContainer.csproj" />
-    <ProjectReference Include="..\FileContainer\FileContainer.csproj" />
   </ItemGroup>
 </Project>

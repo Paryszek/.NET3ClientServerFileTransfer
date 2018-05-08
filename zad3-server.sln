@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad3-server", "zad3-server\zad3-server.csproj", "{D160247F-A449-41A4-8690-635DCC4EBA4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad3-client", "zad3-client\zad3-client.csproj", "{D6AEDF71-847C-493E-ACD3-44896F2EE56D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileContainer", "FileContainer\FileContainer.csproj", "{1D129845-9A16-41BA-80A5-37BD768FD961}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +19,19 @@ Global
 		{D160247F-A449-41A4-8690-635DCC4EBA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D160247F-A449-41A4-8690-635DCC4EBA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D160247F-A449-41A4-8690-635DCC4EBA4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6AEDF71-847C-493E-ACD3-44896F2EE56D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AEDF71-847C-493E-ACD3-44896F2EE56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AEDF71-847C-493E-ACD3-44896F2EE56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AEDF71-847C-493E-ACD3-44896F2EE56D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D129845-9A16-41BA-80A5-37BD768FD961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D129845-9A16-41BA-80A5-37BD768FD961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D129845-9A16-41BA-80A5-37BD768FD961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D129845-9A16-41BA-80A5-37BD768FD961}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2DE04F4E-A376-40FA-ADAC-5AB61C479103}
+		SolutionGuid = {F9FD8CDA-5B5C-403C-93F7-C25462C33AE7}
 	EndGlobalSection
 EndGlobal
