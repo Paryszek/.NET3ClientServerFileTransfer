@@ -31,7 +31,8 @@ namespace zad3server
             while (true)
             {
                 Console.WriteLine("Waiting for a connection... ");
-                TcpClient client = _server.AcceptTcpClient();
+                TcpClient client = new TcpClient();
+                client = _server.AcceptTcpClient();
                 Thread clinetThread = new Thread(() => HandleClient(client));
                 clinetThread.Start();
             }

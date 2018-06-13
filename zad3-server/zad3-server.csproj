@@ -9,4 +9,7 @@
     <ProjectReference Include="..\FileContainer\FileContainer.csproj" />
     <ProjectReference Include="..\FileContainer\FileContainer.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="text.zip" />
+  </ItemGroup>
 </Project>
